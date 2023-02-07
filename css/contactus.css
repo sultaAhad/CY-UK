@@ -1,0 +1,228 @@
+/* contact us css start here */
+.contact-sec {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.contacthead.main_heading {
+	padding-bottom: 50px;
+}
+.contacthead.main_heading h2 {
+	font-size: 47px;
+	color: #081a55;
+}
+.side-box-contact {
+	background-color: #081a55;
+	padding: 55px 10px;
+	height: 100%;
+}
+.side-box-contact h2 {
+	color: #ffffff;
+}
+
+.side-contactheading.main_heading h2 {
+	font-size: 26px;
+	margin-top: 30px;
+}
+
+.office-hr h2 {
+	font-size: 13px;
+}
+
+.side-box-contact p {
+	color: #ffffff;
+	font-family: "Poppins-Light";
+	margin-bottom: 0;
+	font-size: 13px;
+}
+
+.side-box-contact span {
+	color: #ffffff;
+	font-family: "Poppins-Light";
+}
+
+.place-num-loc {
+	display: flex;
+	align-items: baseline;
+	gap: 15px;
+	padding: 18px 0;
+}
+.contact-box {
+	padding-top: 100px;
+	/* display: flex; */
+	/* gap: 70px; */
+}
+
+.all-address-info {
+	padding: 29px 30px 47px 30px;
+	/* border-bottom: 1px solid #65B3FF; */
+}
+
+.office-hr {
+	padding: 30px 30px 20px 30px;
+	margin-top: 40px;
+}
+.office-info.main_heading {
+	padding: 7px 0;
+}
+
+.side-contactheading.main_heading {
+	padding: 0 30px;
+}
+
+label {
+	font-family: "Poppins-Regular";
+}
+
+label sup {
+	color: #399dff;
+	font-size: 15px;
+	top: -1px;
+}
+
+textarea#exampleFormControlTextarea1 {
+	resize: none;
+	height: 131px;
+}
+textarea#exampleFormControlTextarea1::placeholder {
+	font-size: 12px;
+	font-family: "poppins-Regular";
+	color: #a6a5b5;
+}
+.form-control {
+	background-color: #f9f9f9;
+	border: 1px solid #c3cad9 !important;
+	border-radius: 0;
+	height: 50px;
+	border-radius: 4px;
+	padding: 20px 20px;
+}
+input.form-control::placeholder {
+	font-size: 12px;
+	font-family: "poppins-Regular";
+	color: #a6a5b5;
+	text-transform: capitalize;
+}
+.contact-submit-btn {
+	/* text-align: right; */
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: end;
+	height: 100%;
+}
+.upload-box .upload-wrapper {
+	border: 0px dashed #000000 !important;
+	padding: 28px 30px !important;
+	border-width: 2px !important;
+	background: #f9f9f9 !important;
+	width: 100%;
+	border-radius: 4px !important;
+	text-align: center !important;
+}
+.all-form-conatct label {
+	margin-bottom: 16px;
+	margin-top: 10px;
+	color: #535272;
+	font-size: 18px;
+	font-family: "poppins-Medium";
+}
+.contact-submit-btn svg {
+	margin-left: 10px;
+}
+.office-hr a {
+	margin-right: 10px;
+}
+.contact-submit-btn .btn {
+	background: #08a9e6;
+	border-radius: 6px;
+	border-color: transparent;
+	width: 169px;
+	font-size: 13px;
+	padding: 12px 0px;
+	font-family: "Poppins-Light";
+}
+.form-control::placeholder {
+	color: #cdd4d8;
+	font-size: 12px;
+	font-family: "Poppins-Regular";
+	text-transform: lowercase;
+}
+.place-num-loc h2 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+}
+.office-info.main_heading p {
+	color: #ffffff;
+}
+select.form-select {
+	background-color: #f3f3f3;
+	border: 1px solid #c3cad9;
+	color: #798388;
+	font-size: 12px;
+	font-family: "Montserrat", sans-serif;
+	opacity: 4 !important;
+}
+.contact-form .main_heading h2 {
+	font-size: 30px;
+}
+.contact-form {
+	background-color: #e5f3fa;
+	padding: 52px 50px;
+	border: 1px solid #8a9bb7;
+	height: 100%;
+}
+section.newsletter-sec {
+	padding: 0 0 89px 0 !important;
+}
+/* contact us css end here */
+/* hireadesugner page css start here */
+
+.upload-box svg {
+	margin-right: 10px;
+}
+.hire-side-img {
+	position: absolute;
+	top: -24px;
+	right: -40px;
+}
+.hire-box {
+	position: relative;
+}
+.upload-box span {
+	font-size: 13px;
+}
+/* hireadesugner page css end here */
+@media (max-width: 1366px) {
+	.all-form-conatct label {
+		margin-top: 0px;
+	}
+	.side-box-contact span {
+		color: #ffffff;
+		font-family: "Poppins-Light";
+		font-size: 14px;
+	}
+}
+@media (max-width: 1200px) {
+	label {
+		font-size: 11px !important;
+	}
+	.main_heading2 h1 {
+		color: #081a55;
+		font-size: 41px;
+	}
+	.main_heading1 h2.cssanimation.leRotateYZoomIn.random1 {
+		color: #081a55;
+		font-size: 41px;
+	}
+	.contacthead.main_heading p {
+		font-size: 12px;
+	}
+	.side-box-contact span {
+		font-size: 12px;
+	}
+}
+@media (max-width: 590px) {
+	label {
+		font-size: 11px !important;
+	}
+}

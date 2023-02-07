@@ -1,0 +1,250 @@
+header {
+	display: none;
+}
+.register-wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.main_heading span {
+	font-family: "Brinnan-Bold";
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.welcome-reg.main_heading span {
+	color: #f75414;
+	font-size: 29px;
+	font-family: "poppins-Bold";
+	text-transform: math-auto;
+}
+.sign-member-form {
+	padding-top: 23px;
+}
+.register h2 {
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 0.9;
+}
+.welcome-reg.main_heading {
+	padding: 0px 0;
+}
+.welcome-reg.main_heading h2 {
+	font-size: 25px;
+	margin: 0;
+	font-family: "poppins-Regular";
+	margin-bottom: 10px;
+}
+.register.main_heading h2 span {
+	font-size: 50px;
+	color: #012532;
+}
+.member-log span {
+	color: #000000;
+	font-family: "Poppins-Light";
+}
+
+.member-log a {
+	font-family: "Poppins-Bold";
+	text-decoration: none;
+	color: #f75414;
+}
+.member-log {
+	padding-bottom: 40px;
+}
+.info-btn .btn {
+	background: #08a9e6;
+	border: 0;
+	border-radius: 6px;
+	width: 100%;
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	padding: 10px 0;
+}
+.welcome-reg.main_heading.forgot-heading span {
+	font-size: 20px;
+}
+.info-btn .btn svg {
+	margin-left: 10px;
+}
+.info-btn {
+	padding-top: 7px;
+}
+
+input.form-control {
+	border-radius: 0;
+	background-color: #f3f3f3;
+	border: 1px solid #b7b5b5;
+	padding: 12px 22px;
+}
+input.form-control::placeholder {
+	color: #b7b5b5;
+	font-family: "poppins-Light";
+	font-size: 15px;
+}
+section.register-sec {
+	padding-top: 60px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.form-control::placeholder {
+	color: #cdd4d8;
+	font-size: 12px;
+	font-family: "Poppins-Light";
+}
+.terms {
+	padding-top: 107px;
+	text-align: center;
+}
+.terms span {
+	color: #000000;
+	font-family: "Poppins-Light";
+}
+
+.terms a {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	color: #f75414;
+}
+.form-check-input:checked[type="checkbox"] {
+	background-image: url(../img/tick.png) !important;
+}
+
+.form-check-input:checked {
+	background-color: #ffffff !important;
+	border-color: #f75414 !important;
+}
+
+.mod-chk .form-check {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 0 !important;
+	min-height: unset !important;
+}
+.form-check label {
+	margin-top: 6px;
+}
+.remmeber-this {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+.remmeber-this label {
+	color: #636060;
+	font-family: "Poppins-Light";
+	font-size: 15px;
+}
+.remmeber-this a {
+	font-family: "Poppins-Light";
+	font-weight: 300;
+	color: #0e3a20;
+	text-decoration: none;
+}
+.info-one {
+	margin: 0px 0 19px 0;
+}
+.info-btn2 .btn {
+	width: 100%;
+	border-radius: 6px;
+	font-size: 16px;
+	padding: 10px 0px;
+	background: #08a9e6;
+	border: 0;
+	font-family: "Poppins-Light";
+	font-weight: 300;
+	/* height: 42px; */
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+}
+.info-btn2 {
+	padding-top: 22px;
+}
+.forgot-heading h2 {
+	font-family: "Poppins-Regular";
+	font-size: 20px;
+	padding-right: 40px;
+}
+.info-btn2 .btn svg {
+	margin-left: 10px;
+}
+footer.footer {
+	display: none;
+}
+
+.form-group {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.form-group input {
+	padding: 0;
+	height: initial;
+	width: initial;
+	margin-bottom: 0;
+	display: none;
+	cursor: pointer;
+}
+
+.form-group label {
+	position: relative;
+	cursor: pointer;
+}
+
+.form-group label:before {
+	content: "";
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: 2px solid #f75414;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+		inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	padding: 8px;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-right: 19px;
+	border-radius: 4px;
+}
+.form-group input:checked + label:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: 7px;
+	width: 6px;
+	height: 13px;
+	border: solid #f75414;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+@media (max-width: 1366px) {
+	.register.main_heading h2 span {
+		font-size: 40px;
+	}
+	.welcome-reg.main_heading h2 {
+		font-size: 20px;
+	}
+	section.register-sec {
+		padding-top: 100px;
+	}
+}
+@media (max-width: 1200px) {
+	section.register-sec {
+		padding-top: 220px;
+		padding-bottom: 100px;
+		padding-left: 100px;
+		height: 106vh;
+	}
+}

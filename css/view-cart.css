@@ -1,0 +1,235 @@
+/* cart-sec start here  */
+.cart-heading {
+	padding: 30px 0;
+}
+.cart-heading h2 {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.cart-box {
+	background: #eef7fb;
+	position: relative;
+}
+.order-information {
+	padding: 30px 52px;
+	margin-bottom: 100px;
+}
+.cart-top-heading h5 {
+	font-size: 17px;
+	color: white;
+	font-family: "Brinnan-Regular";
+	margin: 0;
+}
+
+.cart-top-heading {
+	background: #081a55;
+	width: 142px;
+	border-bottom-right-radius: 12px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.order-name h2 {
+	font-size: 27px;
+	font-family: "Brinnan-Bold";
+}
+.product-size h2 {
+	font-size: 15px;
+}
+.cart-heading {
+	padding: 140px 0 0 0;
+}
+.totalprice {
+	display: flex;
+	align-items: baseline;
+}
+
+.totalprice h2 {
+	font-size: 15px;
+}
+
+.totalprice h5 {
+	font-size: 16px;
+	font-family: "Poppins-Light";
+}
+
+.order-info {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+.del-icon {
+	background: #08a9e6;
+	padding: 7px;
+	width: 38px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+.order-one {
+	background: #ffffff;
+	padding: 50px 45px;
+	position: relative;
+	margin: 30px 0;
+}
+.order-two {
+	background: #ffffff;
+	margin: 20px 0;
+}
+.order-summary {
+	padding: 29px 123px;
+}
+.summary-btn {
+	display: flex;
+	gap: 24px;
+}
+
+.taxes-duty {
+	padding-top: 101px;
+}
+.order-summary-heading h2 {
+	font-size: 32px;
+	margin-bottom: 28px;
+}
+
+.taxes-duty p {
+	color: #000000;
+	font-family: "Poppins-Regular";
+	font-weight: 500;
+	font-size: 13px;
+	font-style: italic;
+}
+.qty-box {
+	padding: 13px 0;
+}
+.cart-img {
+	position: absolute;
+	top: -18px;
+	right: -25px;
+}
+/* qty box */
+.quantity-field {
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	width: 120px;
+	height: 40px;
+	/* margin: 0 auto;     */
+}
+
+.quantity-field .value-button {
+	border: 1px solid #ddd;
+	margin: 0px;
+	width: 40px;
+	height: 100%;
+	padding: 0;
+	background: white;
+	outline: none;
+	cursor: pointer;
+}
+/*   
+  .quantity-field .value-button:hover {
+    background: rgb(230, 230, 230);
+  }
+  
+  .quantity-field .value-button:active{
+    background: rgb(210, 210, 210);
+  } */
+
+.quantity-field .decrease-button {
+	margin-right: -4px;
+	/* border-radius: 8px 0 0 8px; */
+}
+
+.quantity-field .increase-button {
+	margin-left: -4px;
+	/* border-radius: 0 8px 8px 0; */
+}
+
+.quantity-field .number {
+	display: inline-block;
+	text-align: center;
+	border: none;
+	border: 1px solid #ddd;
+	/* border-bottom: 1px solid #ddd; */
+	margin: 0px;
+	width: 40px;
+	height: 100%;
+	line-height: 40px;
+	font-size: 11pt;
+	box-sizing: border-box;
+	background: white;
+	font-family: calibri;
+}
+span.number24 {
+	font-family: "poppins-Bold";
+	font-size: 16px;
+	color: #081a55;
+}
+.quantity-field .number::selection {
+	background: none;
+}
+
+/*
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  */
+/* order summary  */
+.check-out-btn .btn {
+	width: 128px;
+	background: #08a9e6;
+	border: 0;
+	font-size: 13px;
+	border-radius: 6px;
+	font-family: "Poppins-Light";
+}
+/* cart-sec end here  */
+/* reponsive */
+@media (max-width: 1366px) {
+	.order-name h2 {
+		font-size: 21px;
+	}
+	.qty-box {
+		padding: 23px 0;
+	}
+	.order-summary-heading h2 {
+		font-size: 29px;
+		margin-bottom: 28px;
+	}
+	.order-summary {
+		padding: 29px 93px;
+	}
+	.taxes-duty p {
+		font-size: 12px;
+	}
+}
+@media (max-width: 580px) {
+	.summary-btn {
+		display: flex;
+		gap: 24px;
+		flex-wrap: wrap;
+	}
+	.order-info {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+		flex-wrap: wrap;
+	}
+	.order-summary {
+		padding: 0px 0px;
+	}
+}
+@media (max-width: 768px) {
+	.order-info {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}

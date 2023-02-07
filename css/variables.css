@@ -1,0 +1,245 @@
+/* font family includes */
+@font-face {
+	src: url(../fonts/sofiapro-light.otf);
+	font-family: "sofiapro-light";
+}
+@font-face {
+	src: url(../fonts/Poppins-Medium.ttf);
+	font-family: "Poppins-Medium";
+}
+
+@font-face {
+	src: url(../fonts/Poppins-SemiBold.ttf);
+	font-family: "Poppins-SemiBold";
+}
+
+@font-face {
+	src: url(../fonts/Poppins-Bold.ttf);
+	font-family: "Poppins-Bold";
+}
+
+@font-face {
+	src: url(../fonts/Poppins-Regular.ttf);
+	font-family: "Poppins-Regular";
+}
+@font-face {
+	src: url(../fonts/Poppins-Light.ttf);
+	font-family: "Poppins-Light";
+}
+
+@font-face {
+	src: url(../fonts/Brinnan-Regular.otf);
+	font-family: "Brinnan-Regular";
+}
+
+@font-face {
+	src: url(../fonts/Brinnan-Bold.otf);
+	font-family: "Brinnan-Bold";
+}
+
+@font-face {
+	src: url(../fonts/Brinnan-Light.otf);
+	font-family: "Brinnan-Light";
+}
+@font-face {
+	src: url(../fonts/Brinnan-Black.otf);
+	font-family: "Brinnan Black";
+}
+@font-face {
+	src: url(../fonts/Montserrat-Bold.ttf);
+	font-family: "Montserrat-Bold";
+}
+@font-face {
+	src: url(../fonts/Montserrat-Light.ttf);
+	font-family: "Montserrat-Light";
+}
+@font-face {
+	src: url(../fonts/Montserrat-Medium.ttf);
+	font-family: "Montserrat-Medium";
+}
+@font-face {
+	src: url(../fonts/Montserrat-Regular.ttf);
+	font-family: "Montserrat-Regular";
+}
+@font-face {
+	src: url(../fonts/Montserrat-SemiBold.ttf);
+	font-family: "Montserrat-SemiBold";
+}
+@font-face {
+	src: url(../fonts/Roboto-Bold.ttf);
+	font-family: "Roboto-Bold";
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body {
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: "Brinnan-Bold";
+	font-size: 100px;
+	line-height: 1.2;
+}
+
+h2 {
+	font-family: "Brinnan-Regular";
+	font-size: 80px;
+	line-height: 1.2;
+}
+
+h3 {
+	font-family: "Brinnan-Regular";
+	font-size: 60px;
+	line-height: 1.2;
+	color: #081a55;
+}
+
+h4 {
+	font-family: "Brinnan-Regular";
+	font-size: 50px;
+	line-height: 1.2;
+	color: #081a55;
+}
+
+h5 {
+	font-family: "Brinnan-Bold";
+	font-size: 30px;
+	line-height: 1.5;
+}
+
+h6 {
+	font-family: "Poppins-SemiBold";
+	font-size: 18px;
+	line-height: 1.5;
+	color: #08a9e6;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "poppins-Regular";
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
+a:hover {
+	color: #37b3ed;
+	text-decoration: none;
+}
+:focus-visible {
+	outline: none;
+}
+li {
+	list-style: none;
+}
+ul {
+	padding: 0;
+}
+.main_heading h2 {
+	font-family: "Brinnan-Regular";
+	color: #081a55;
+}
+.main_heading span {
+	font-family: "Brinnan-Bold";
+}
+/* ::-webkit-scrollbar */
+body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+	background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: radial-gradient(
+		circle,
+		rgba(227, 242, 249, 1) 31%,
+		rgba(137, 207, 240, 1) 100%
+	);
+	background-image: -webkit-linear-gradient(
+		45deg,
+		rgba(227, 242, 249, 1) 31%,
+		transparent 25%,
+		transparent 50%,
+		rgba(137, 207, 240, 1) 50% rgba(137, 207, 240, 1) 100% transparent 75%,
+		transparent
+	);
+}
+
+/*preloader*/
+
+/* scroll bottom to top css */
+.scrollTop {
+	position: fixed;
+	right: 10%;
+	bottom: 10px;
+	background-color: #f75414;
+	padding: 20px;
+	opacity: 0;
+	transition: all 0.4s ease-in-out 0s;
+	z-index: 1111;
+}
+.scrollTop a {
+	font-size: 18px;
+	color: #fff;
+}
+/* pluse */
+.pulse {
+	margin: 0px;
+	display: block;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	/* background: #cca92c; */
+	cursor: pointer;
+	box-shadow: 0 0 0 #f75414(204, 169, 44, 0.4);
+	animation: pulse 2s infinite;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pulse:hover {
+	animation: none;
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-box-shadow: 0 0 0 0 #f75414(204, 169, 44, 0.4);
+	}
+	70% {
+		-webkit-box-shadow: 0 0 0 10px #f75414(204, 169, 44, 0);
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 0 #f75414(204, 169, 44, 0);
+	}
+}
+@keyframes pulse {
+	0% {
+		-moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+		box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+	}
+	70% {
+		-moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+		box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+	}
+	100% {
+		-moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+		box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+	}
+}

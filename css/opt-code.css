@@ -1,0 +1,164 @@
+header {
+	display: none;
+}
+footer.footer {
+	display: none;
+}
+.main_heading h2 {
+	font-family: "Brinnan-Regular";
+	color: #081a55;
+	font-size: 34px;
+}
+.forgot-heading h2 {
+	font-family: "Poppins-Regular";
+}
+.userInput {
+	display: flex;
+	/* justify-content: space-between; */
+	width: 100%;
+	gap: 17px;
+	padding-top: 11px;
+}
+section.register-sec {
+	padding-top: 60px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.sign-member-form input {
+	height: 62px;
+	width: 62px;
+	border: none;
+	border: 1px solid #c3cad9;
+	text-align: center;
+	background: white;
+	border-radius: 0;
+	background-color: #f3f3f3;
+}
+.user-time {
+	padding: 20px 0;
+	text-align: center;
+}
+.register-wrapper {
+	padding: 42px 41px 38px 31px;
+	height: 100%;
+}
+
+.welcome-reg.main_heading span {
+	color: #f75414;
+	font-family: "poppins-Bold";
+	font-size: 20px;
+}
+.sign-member-form {
+	padding-top: 23px;
+}
+.register h2 {
+	text-transform: capitalize;
+	font-family: "Brinnan-Bold";
+	font-size: 50px;
+	color: #012532;
+	margin: 0;
+	line-height: 0.8;
+}
+.welcome-reg.main_heading {
+	padding: 10px 0;
+}
+.sign-member-form label {
+	font-size: 15px;
+	font-family: "poppins-Regular";
+	color: #000000;
+}
+.welcome-reg.main_heading h2 {
+	font-size: 26px;
+	margin: 0;
+	font-family: "Poppins-Regular";
+	font-size: 20px !important;
+	padding-right: 0px;
+	color: #000;
+}
+.member-log span {
+	color: #000000;
+	font-family: "Poppins-Light";
+}
+
+.member-log a {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.member-log {
+	padding-bottom: 20px;
+}
+
+.info-btn .btn {
+	width: 100%;
+	border-radius: 34px;
+	font-size: 12px;
+	padding: 9px 0;
+}
+
+.info-btn {
+	padding-top: 7px;
+}
+
+input.form-control {
+	border-radius: 0 !important;
+	background-color: #f3f3f3;
+	border: 1px solid #c3cad9 !important;
+}
+section.register-sec {
+	padding-top: 140px;
+	padding-bottom: 100px;
+}
+.form-control::placeholder {
+	color: #cdd4d8;
+	font-size: 12px;
+	font-family: "Poppins-Light";
+}
+
+.info-one {
+	margin: 10px 0;
+}
+.info-btn2 .btn {
+	width: 100%;
+	border-radius: 34px;
+	font-size: 16px;
+	padding: 10px 0;
+}
+.info-btn2 {
+	padding-top: 22px;
+}
+.info-btn2 .btn {
+	background: #08a9e6;
+	border: 0;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 4px;
+	width: 127%;
+}
+.info-btn2 .btn svg {
+	margin-left: 10px;
+}
+@media (max-width: 1366px) {
+	.register h2 {
+		font-size: 40px;
+	}
+	.welcome-reg.main_heading h2 {
+		font-size: 20px !important;
+	}
+}
+@media (max-width: 1200px) {
+	section.register-sec {
+		padding-top: 220px;
+		padding-bottom: 100px;
+		padding-left: 100px;
+		height: 106vh;
+	}
+}
