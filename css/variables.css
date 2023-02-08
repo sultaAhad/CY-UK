@@ -1,8 +1,5 @@
 /* font family includes */
-@font-face {
-	src: url(../fonts/sofiapro-light.otf);
-	font-family: "sofiapro-light";
-}
+
 @font-face {
 	src: url(../fonts/Poppins-Medium.ttf);
 	font-family: "Poppins-Medium";
@@ -28,46 +25,30 @@
 }
 
 @font-face {
-	src: url(../fonts/Brinnan-Regular.otf);
-	font-family: "Brinnan-Regular";
+	src: url(../fonts/TomatoGrotesk-Regular.otf);
+	font-family: "TomatoGrotesk-Regular";
 }
 
 @font-face {
-	src: url(../fonts/Brinnan-Bold.otf);
-	font-family: "Brinnan-Bold";
+	src: url(../fonts/TomatoGrotesk-Bold.otf);
+	font-family: "TomatoGrotesk-Bold";
 }
 
 @font-face {
-	src: url(../fonts/Brinnan-Light.otf);
-	font-family: "Brinnan-Light";
+	src: url(../fonts/TomatoGrotesk-Light.otf);
+	font-family: "TomatoGrotesk-Light";
 }
 @font-face {
-	src: url(../fonts/Brinnan-Black.otf);
-	font-family: "Brinnan Black";
+	src: url(../fonts/TomatoGrotesk-Black.otf);
+	font-family: "TomatoGrotesk-Black";
 }
 @font-face {
-	src: url(../fonts/Montserrat-Bold.ttf);
-	font-family: "Montserrat-Bold";
+	src: url(../fonts/TomatoGrotesk-SemiBold.otf);
+	font-family: "TomatoGrotesk-SemiBold";
 }
 @font-face {
-	src: url(../fonts/Montserrat-Light.ttf);
-	font-family: "Montserrat-Light";
-}
-@font-face {
-	src: url(../fonts/Montserrat-Medium.ttf);
-	font-family: "Montserrat-Medium";
-}
-@font-face {
-	src: url(../fonts/Montserrat-Regular.ttf);
-	font-family: "Montserrat-Regular";
-}
-@font-face {
-	src: url(../fonts/Montserrat-SemiBold.ttf);
-	font-family: "Montserrat-SemiBold";
-}
-@font-face {
-	src: url(../fonts/Roboto-Bold.ttf);
-	font-family: "Roboto-Bold";
+	src: url(../fonts/TomatoGrotesk-Medium.otf);
+	font-family: "TomatoGrotesk-Medium";
 }
 * {
 	margin: 0;
@@ -79,52 +60,156 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	overflow-x: hidden;
+	height: 100%;
+	overflow: hidden;
+	background-color: #f2f2f2;
 }
-
+:root {
+	--bluetype-background-color: #0f7ba1;
+	--heading-color: #292929;
+	--heading1-color: #fbfcfd;
+	--bold-font-family: "TomatoGrotesk-Bold";
+	--medium-font-family: "TomatoGrotesk-Medium";
+	--regular-font-family: "TomatoGrotesk-Regular";
+	--light-font-family: "TomatoGrotesk-Light";
+	--samibold-font-family: "TomatoGrotesk-SemiBold";
+}
 h1 {
-	font-family: "Brinnan-Bold";
+	font-family: var(--bold-font-family);
 	font-size: 100px;
 	line-height: 1.2;
+	color: var(--heading-color);
 }
 
 h2 {
-	font-family: "Brinnan-Regular";
-	font-size: 80px;
+	font-family: var(--regular-font-family);
+	font-size: 50px;
 	line-height: 1.2;
+	color: var(--heading-color);
 }
 
 h3 {
-	font-family: "Brinnan-Regular";
-	font-size: 60px;
+	font-family: var(--bold-font-family);
+	font-size: 50px;
 	line-height: 1.2;
-	color: #081a55;
+	color: var(--heading-color);
 }
 
 h4 {
-	font-family: "Brinnan-Regular";
-	font-size: 50px;
+	font-family: var(--regular-font-family);
+	font-size: 35px;
 	line-height: 1.2;
-	color: #081a55;
+	color: var(--heading-color);
 }
 
 h5 {
-	font-family: "Brinnan-Bold";
-	font-size: 30px;
-	line-height: 1.5;
+	font-family: var(--medium-font-family);
+	font-size: 35px;
+	line-height: 1.2;
+	color: var(--heading-color);
 }
 
 h6 {
-	font-family: "Poppins-SemiBold";
-	font-size: 18px;
-	line-height: 1.5;
-	color: #08a9e6;
+	font-family: var(--medium-font-family);
+	font-size: 22px;
+	line-height: 1.2;
+	color: var(--heading1-color);
 }
 
 p {
-	font-size: 14px;
-	font-weight: 400;
-	font-family: "poppins-Regular";
+	font-family: var(--regular-font-family);
+	font-size: 15px;
+	line-height: 1.2;
+}
+.custom-btn {
+	width: 130px;
+	height: 40px;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+		7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+	outline: none;
+}
+/* 3 */
+.btn-3 {
+	background: rgb(0, 172, 238);
+	background: linear-gradient(
+		0deg,
+		rgba(0, 172, 238, 1) 0%,
+		rgba(2, 126, 251, 1) 100%
+	);
+	width: 130px;
+	height: 40px;
+	line-height: 42px;
+	padding: 0;
+	border: none;
+}
+.btn-3 span {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+	position: absolute;
+	content: "";
+	right: 0;
+	top: 0;
+	background: rgba(2, 126, 251, 1);
+	transition: all 0.3s ease;
+}
+.btn-3:before {
+	height: 0%;
+	width: 2px;
+}
+.btn-3:after {
+	width: 0%;
+	height: 2px;
+}
+.btn-3:hover {
+	background: transparent;
+	box-shadow: none;
+}
+.btn-3:hover:before {
+	height: 100%;
+}
+.btn-3:hover:after {
+	width: 100%;
+}
+.btn-3 span:hover {
+	color: rgba(2, 126, 251, 1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	background: rgba(2, 126, 251, 1);
+	transition: all 0.3s ease;
+}
+.btn-3 span:before {
+	width: 2px;
+	height: 0%;
+}
+.btn-3 span:after {
+	width: 0%;
+	height: 2px;
+}
+.btn-3 span:hover:before {
+	height: 100%;
+}
+.btn-3 span:hover:after {
+	width: 100%;
 }
 a {
 	cursor: pointer;
@@ -135,10 +220,7 @@ a {
 	outline: 0;
 	box-shadow: none;
 }
-a:hover {
-	color: #37b3ed;
-	text-decoration: none;
-}
+
 :focus-visible {
 	outline: none;
 }
@@ -148,98 +230,74 @@ li {
 ul {
 	padding: 0;
 }
-.main_heading h2 {
-	font-family: "Brinnan-Regular";
-	color: #081a55;
-}
-.main_heading span {
-	font-family: "Brinnan-Bold";
-}
-/* ::-webkit-scrollbar */
-body::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-	background-color: #f5f5f5;
-}
-
-body::-webkit-scrollbar {
-	width: 10px;
-	background-color: #f5f5f5;
-}
-
-body::-webkit-scrollbar-thumb {
-	background: radial-gradient(
-		circle,
-		rgba(227, 242, 249, 1) 31%,
-		rgba(137, 207, 240, 1) 100%
-	);
-	background-image: -webkit-linear-gradient(
-		45deg,
-		rgba(227, 242, 249, 1) 31%,
-		transparent 25%,
-		transparent 50%,
-		rgba(137, 207, 240, 1) 50% rgba(137, 207, 240, 1) 100% transparent 75%,
-		transparent
-	);
-}
 
 /*preloader*/
-
-/* scroll bottom to top css */
-.scrollTop {
-	position: fixed;
-	right: 10%;
-	bottom: 10px;
-	background-color: #f75414;
-	padding: 20px;
-	opacity: 0;
-	transition: all 0.4s ease-in-out 0s;
-	z-index: 1111;
+.circle,
+.message {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+	width: 110px;
+	height: 110px;
 }
-.scrollTop a {
-	font-size: 18px;
-	color: #fff;
-}
-/* pluse */
-.pulse {
-	margin: 0px;
-	display: block;
-	width: 22px;
-	height: 22px;
-	border-radius: 50%;
-	/* background: #cca92c; */
-	cursor: pointer;
-	box-shadow: 0 0 0 #f75414(204, 169, 44, 0.4);
-	animation: pulse 2s infinite;
+.message {
+	text-align: center;
+	padding-top: 16px;
+	-webkit-animation: fonthide 1.3s linear infinite;
+	animation: fonthide 1.3s linear infinite;
+	background: #f2f2f2;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-size: 14px;
 }
-.pulse:hover {
-	animation: none;
+.message p {
+	font-family: var(--regular-font-family);
+	font-size: 14px;
 }
-
-@-webkit-keyframes pulse {
+.circle {
+	border-radius: 100%;
+	border: 6px solid white;
+	border-left: 6px solid black;
+	border-right: 6px solid black;
+	animation: spin 1.3s linear infinite;
+	-webkit-animation: spin 1.3s linear infinite;
+	z-index: 11111;
+}
+@keyframes spin {
 	0% {
-		-webkit-box-shadow: 0 0 0 0 #f75414(204, 169, 44, 0.4);
-	}
-	70% {
-		-webkit-box-shadow: 0 0 0 10px #f75414(204, 169, 44, 0);
+		transform: rotate(0deg);
 	}
 	100% {
-		-webkit-box-shadow: 0 0 0 0 #f75414(204, 169, 44, 0);
+		transform: rotate(360deg);
 	}
 }
-@keyframes pulse {
+@-webkit-keyframes spin {
 	0% {
-		-moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
-		box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
-	}
-	70% {
-		-moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
-		box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+		transform: rotate(0deg);
 	}
 	100% {
-		-moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
-		box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+		transform: rotate(360deg);
+	}
+}
+@keyframes fonthide {
+	0% {
+		color: white;
+	}
+	100% {
+		color: black;
+	}
+}
+@-webkit-keyframes fonthide {
+	0% {
+		color: white;
+	}
+	100% {
+		color: black;
 	}
 }

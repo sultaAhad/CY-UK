@@ -3,12 +3,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- title Banner-man -->
-<title>Banner-man</title>
+<title>CY-UK</title>
 <!-- title Banner-man -->
 
 <!-- Logo Banner-man -->
 <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
 <!-- Logo Banner-man -->
+
+<!-- font awasome 4 -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- font awasome 4 -->
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
