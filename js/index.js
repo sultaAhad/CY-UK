@@ -1,12 +1,13 @@
 // preloader
 $(window).on("load", function () {
-	$(".circle").fadeOut(800);
-	$(".message").fadeOut(800);
+	$(".circle").fadeOut(1000);
+	$(".message").fadeOut(1000);
 });
 // window scroll top
 $(document).ready(function () {
 	$(window).scrollTop(0);
 });
+// dropdown
 $(document).ready(function () {
 	$(".dropdown").hover(
 		function () {
@@ -18,4 +19,19 @@ $(document).ready(function () {
 			$(this).toggleClass("open");
 		},
 	);
+});
+// year
+var date = new Date().getFullYear();
+
+document.getElementById("year").innerHTML = date;
+// tabs
+$(document).ready(function () {
+	$("button#pills-profile-tab").click(function () {
+		$(".freight").css("display", "contents");
+		$(".map img").css("display", "block");
+	});
+	$("button#pills-home-tab").click(function () {
+		$(".freight").css("display", "none");
+		$(".map img").css("display", "none");
+	});
 });
