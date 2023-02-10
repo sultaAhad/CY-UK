@@ -2,11 +2,11 @@
 <script src="js/jquery.min.js"></script>
 <!-- Jquery JS-->
 
-<!-- index bootstrap js -->
+<!-- main js -->
 <script src="js/index.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/popper.min.js"></script>
-<!-- index js -->
+<!-- main js -->
 
 <!-- aos js -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -26,10 +26,28 @@
                                         <div class="dropdown-menu megamenu" role="menu">
                                             <div class="row">
                                                 <div class="col-lg-6">
-                                                    <img src="img/logo.png" alt="">
+                                                    <div class="business-card card1">
+                                                        <img src="img/machineri.png" class="img-fluid" alt="">
+                                                        <h3>Business To Business
+                                                            Services</h3>
+                                                        <p>Ultricies mi quis hendrerit dolor magna eget est. Rhoncus
+                                                            urna neque viverra justo nec ultrices
+                                                            dui sapien. At auctor urna nunc id cursus metus aliquam.
+                                                        </p>
+                                                        <a href="" class="btn">View All B2B services</a>
+                                                    </div>
                                                 </div>
                                                 <div class="col-lg-6">
-                                                    <img src="img/logo.png" alt="">
+                                                    <div class="business-card card2">
+                                                        <img src="img/machineri1.png" class="img-fluid" alt="">
+                                                        <h3>Business To Customer
+                                                            Services</h3>
+                                                        <p>Ultricies mi quis hendrerit dolor magna eget est. Rhoncus
+                                                            urna neque viverra justo nec ultrices
+                                                            dui sapien. At auctor urna nunc id cursus metus aliquam.
+                                                        </p>
+                                                        <a href="" class="btn">View All B2B services</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div> <!-- dropdown-mega-menu.// -->

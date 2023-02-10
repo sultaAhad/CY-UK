@@ -221,7 +221,7 @@
 </section>
 <!-- Banner section end -->
 
-<!-- about-us start -->
+<!-- about-us section start -->
 <section id="about-us">
     <div class="container">
         <div class="about-wrapper">
@@ -273,9 +273,110 @@
         </div>
     </div>
 </section>
-<!-- about-us end -->
+<!-- about-us section end -->
 
-<!--  -->
+<!-- business section start -->
+<section id="business">
+    <div class="background-img">
+        <img src="img/logistic.png" class="img-fluid" alt="">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 py-5">
+                <h1><span class="span">What </span> CY UK Offers</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="business-card card1">
+                    <img src="img/machineri.png" class="img-fluid" alt="">
+                    <h3>Business To Business
+                        Services</h3>
+                    <p>Ultricies mi quis hendrerit dolor magna eget est. Rhoncus urna neque viverra justo nec ultrices
+                        dui sapien. At auctor urna nunc id cursus metus aliquam. </p>
+                    <a href="" class="btn">View All B2B services</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="business-card card2">
+                    <img src="img/machineri1.png" class="img-fluid" alt="">
+                    <h3>Business To Customer
+                        Services</h3>
+                    <p>Ultricies mi quis hendrerit dolor magna eget est. Rhoncus urna neque viverra justo nec ultrices
+                        dui sapien. At auctor urna nunc id cursus metus aliquam. </p>
+                    <a href="" class="btn">View All B2B services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- business section end -->
+
+<!-- quality section start -->
+<section id="quality">
+    <div class="container">
+        <div class="main-quantity">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="quality-heading">
+                        <h1>CY UK <span class="span"> Qualities</span></h1>
+                        <h4>Here is Why We Are Best </h4>
+                        <a href="" class="btn">Book Now</a>
+                        <h2>01</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="slider-quantity">
+                        <div class="verticle slider  ">
+                            <h4>China and Far East Specialists
+                                Comprehensive and reliable network</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="verticle slider ">
+                            <h4>15 years’ experience with HM Customs in UK</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="verticle slider">
+                            <h4>15 years’ experience with HM Customs in UK</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- quality section end -->
 
 <!-- Include Footer -->
 <?php include 'inc/footer.php'; ?>

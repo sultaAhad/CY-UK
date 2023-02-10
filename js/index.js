@@ -4,9 +4,9 @@ $(window).on("load", function () {
 	$(".message").fadeOut(1000);
 });
 // window scroll top
-$(document).ready(function () {
-	$(window).scrollTop(0);
-});
+// $(document).ready(function () {
+// 	$(window).scrollTop(0);
+// });
 // dropdown
 $(document).ready(function () {
 	$(".dropdown").hover(
@@ -33,5 +33,37 @@ $(document).ready(function () {
 	$("button#pills-home-tab").click(function () {
 		$(".freight").css("display", "none");
 		$(".map img").css("display", "none");
+	});
+});
+$(document).ready(function () {
+	$(".slider-quantity").slick({
+		centerMode: true,
+		slidesToShow: 2,
+		slidesToScroll: 2,
+		autoplay: true,
+		playduration: 500,
+		vertical: true,
+		verticalSwiping: true,
+		focusOnSelect: true,
+		prevArrow: false,
+		nextArrow: false,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					arrows: false,
+					centerMode: true,
+					slidesToShow: 2,
+				},
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					arrows: false,
+					centerMode: true,
+					slidesToShow: 1,
+				},
+			},
+		],
 	});
 });
