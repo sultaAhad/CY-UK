@@ -61,7 +61,7 @@ html {
 body {
 	height: 100%;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #f2f2f2;
 }
 :root {
 	--bluetype-background-color: #0f7ba1;
@@ -71,11 +71,11 @@ body {
 	--medium-font-family: "TomatoGrotesk-Medium";
 	--regular-font-family: "TomatoGrotesk-Regular";
 	--light-font-family: "TomatoGrotesk-Light";
-	--samibold-font-family: "TomatoGrotesk-SemiBold";
+	--semibold-font-family: "TomatoGrotesk-SemiBold";
 }
 h1 {
 	font-family: var(--bold-font-family);
-	font-size: clamp(50px, 5vw, 90px);
+	font-size: clamp(50px, 5vw, 120px);
 	line-height: 1.2;
 	color: var(--heading-color);
 }
@@ -108,10 +108,9 @@ h5 {
 }
 
 h6 {
-	font-family: var(--medium-font-family);
-	font-size: clamp(18px, 5vw, 22px);
+	font-family: var(--semibold-font-family);
+	font-size: clamp(18px, 5vw, 30px);
 	line-height: 1.2;
-	color: var(--heading1-color);
 }
 .span {
 	font-family: var(--medium-font-family);

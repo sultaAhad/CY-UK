@@ -20,6 +20,10 @@
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- slick slider js -->
 
+<!-- swapper slider js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- swapper slider js -->
+
 <!-- aos js -->
 <script>
 AOS.init();
@@ -36,8 +40,8 @@ wow = new WOW({
 })
 </script>
 
+<!-- header navbar -->
 <script>
-// Header
 const CurrentLocation = location.href;
 const menuItem = document.querySelectorAll(".normal-nav-items .menu");
 const menuLength = menuItem.length;

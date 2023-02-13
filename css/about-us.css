@@ -1,0 +1,51 @@
+section#main-banner {
+	position: relative;
+}
+.about-main-img svg {
+	width: 110%;
+	height: 110%;
+	margin-left: -60px;
+}
+.banner-heading-para h3 {
+	font-size: 35px;
+	font-family: var(--regular-font-family);
+}
+.heading-slider h2 {
+	font-family: var(--medium-font-family);
+	font-size: 83px;
+	margin: 0px 70px;
+}
+.ship-wrapper {
+	padding: 30px 30px;
+	background: #f9f9f9;
+	border-radius: 30px;
+	box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 60%);
+	-webkit-box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 14%);
+	-moz-box-shadow: 1px 1px 8px 0px rgba(59, 49, 49, 0.6);
+	margin: 80px 0;
+}
+.ship-wrapper img {
+	border-radius: 10px;
+}
+.business-card a {
+	width: 26%;
+}
+.business-card h3 {
+	margin-top: 10px;
+	font-size: 47px;
+}
+.business-card p {
+	padding-right: 50px;
+	margin: 14px 0;
+	height: 80px;
+}
+p.para-about {
+	margin-top: 69px;
+}
+.business-card.card1 {
+	margin: 40px 0px 0 0px;
+}
+section#specialised {
+	position: relative;
+	padding-bottom: 80px;
+}

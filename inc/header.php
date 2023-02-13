@@ -1,3 +1,4 @@
+<!-- header start -->
 <header>
     <div class="main-top-navbar">
         <div class="container">
@@ -93,3 +94,4 @@
         </div>
     </div>
 </header>
+<!-- header end -->

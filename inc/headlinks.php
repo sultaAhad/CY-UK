@@ -7,7 +7,7 @@
 <!-- title Banner-man -->
 
 <!-- Logo Banner-man -->
-<link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 <!-- Logo Banner-man -->
 
 <!-- font awasome 4 -->
@@ -33,3 +33,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 <!-- slick slider cdn -->
+
+<!-- swapper slider cdn -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<!-- swapper slider cdn -->
