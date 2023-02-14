@@ -12,8 +12,12 @@ section#main-banner {
 }
 .heading-slider h2 {
 	font-family: var(--medium-font-family);
-	font-size: 83px;
+	font-size: 80px;
 	margin: 0px 70px;
+}
+.about-heading h2 {
+	font-size: clamp(50px, 5vw, 80px);
+	font-family: var(--bold-font-family);
 }
 .ship-wrapper {
 	padding: 30px 30px;
@@ -38,9 +42,10 @@ section#main-banner {
 	padding-right: 50px;
 	margin: 14px 0;
 	height: 80px;
+	line-height: 1.5;
 }
 p.para-about {
-	margin-top: 69px;
+	margin-top: 81px;
 }
 .business-card.card1 {
 	margin: 40px 0px 0 0px;

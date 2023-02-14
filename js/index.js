@@ -28,7 +28,7 @@ $(document).ready(function () {
 	});
 	$("button#pills-home-tab").click(function () {
 		$(".freight").css("display", "none");
-		$(".map img").css("display", "none");
+		$(".map svg").css("display", "none");
 	});
 });
 // slider

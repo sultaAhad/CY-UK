@@ -249,7 +249,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="about-heading">
-                        <h1> <span class="span">All About </span> CY UK</h1>
+                        <h2> <span class="span">All About </span> CY UK</h2>
                     </div>
                     <div class="about-heading-para">
                         <h2>Who we Are and What we do?</h2>

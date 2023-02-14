@@ -5,7 +5,7 @@
 <!-- Style Varieble css  -->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/variables.css">
-<link rel="stylesheet" href="css/about-us.css">
+<link rel="stylesheet" href="css/service.css">
 <!-- Style Varieble css  -->
 
 <!-- about-banner start -->
@@ -54,10 +54,10 @@
             <div class="col-lg-12">
                 <div class="ship-wrapper">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-5">
                             <img src="img/ship.png" class="img-fluid" alt="">
                         </div>
-                        <div class="col-lg-8 align-self-center">
+                        <div class="col-lg-5 align-self-center">
                             <div class="review-heading-para">
                                 <h4>Deepsea Services</h4>
                                 <h5>Cheaper Than Other takes a
@@ -66,13 +66,10 @@
                                     nec ultrices dui sapien. At auctor urna nunc id cursus metus aliquam. Maecenas
                                     accumsan lacus vel facilisis volutpat. Et malesuada fames ac turpis egestas sed
                                     tempus. Auctor augue mauris augue neque gravida.</p>
-                                <a href="">Book Now</a>
-                            </div>
-                            <div class="name-engineers">
-                                <h5>Jason Millers</h5>
-                                <h6>Posted on Jan 2022</h6>
+                                <a class="btn" href="">Book Now</a>
                             </div>
                         </div>
+                        <div class="col-lg-2"></div>
                     </div>
                 </div>
             </div>
@@ -138,11 +135,9 @@
 <!-- we are specialised end -->
 
 
-
 <!-- faqs section start -->
 <?php include './inc/faq-section.php'; ?>
 <!-- faqs section end -->
-
 
 <!-- Include Footer -->
 <?php include 'inc/footer.php'; ?>
