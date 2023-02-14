@@ -169,6 +169,11 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
+                <img src="img/step-wrapper.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="col-lg-12">
                 <div class="progress-bar progress-bar1">
                     <ul class="prograss-bar1">
                         <li>01</li>
@@ -181,7 +186,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <!-- Logistics process end -->
