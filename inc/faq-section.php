@@ -6,7 +6,7 @@
                     <div class="faqs-heading">
                         <h1>CY UK <span class="span"> FAQs</span></h1>
                         <h4>Have Question? Read Our FAQs </h4>
-                        <a href="" class="btn faq ">Contact Us</a>
+                        <a href="contact-us.php" class="btn faq ">Contact Us</a>
                         <a href="" class="faq-btn">Talk to Our Expert</a>
                     </div>
                 </div>

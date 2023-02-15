@@ -7,7 +7,7 @@
 <!-- title Banner-man -->
 
 <!-- Logo Banner-man -->
-<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+<link rel="shortcut icon" href="img/cy-uk-login.png" type="image/x-icon">
 <!-- Logo Banner-man -->
 
 <!-- font awasome 4 -->
@@ -15,8 +15,7 @@
 <!-- font awasome 4 -->
 
 <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- Bootstrap CSS -->
 

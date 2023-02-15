@@ -1,0 +1,34 @@
+.banner-heading-para h2 {
+	position: inherit;
+	margin-bottom: 30px;
+}
+.banner-heading-para p {
+	padding-right: 0;
+	padding-top: 0;
+}
+.book-form h5 {
+	font-family: var(--bold-font-family);
+	font-size: clamp(12px, 5vw, 16px);
+}
+.form-footer.form-contact {
+	overflow-y: scroll;
+	height: 100vh;
+}
+.banner-heading-para {
+	margin-top: 110px;
+	padding-right: 70px;
+}
+.book-form h5 {
+	padding: 20px 0;
+}
+.book-form p {
+	margin-bottom: 20px;
+}
+a.btn.submit {
+	width: 30%;
+	margin-top: 10px;
+}
+section#banner {
+	position: relative;
+	padding-bottom: 50px;
+}

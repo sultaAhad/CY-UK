@@ -1,6 +1,15 @@
 /* header css start */
 .main-top-navbar a img {
-	height: 50px;
+	height: 90px;
+}
+a.btn.header-service {
+	width: 39%;
+}
+.business-card.card1.service-card {
+	margin: unset;
+}
+.business-card.card2.service-card {
+	margin: unset;
 }
 .main-top-navbar ul.navbar-nav li.nav-item {
 	padding: 10px 11px;
@@ -9,8 +18,7 @@
 .main-top-navbar a.nav-link.active {
 	color: var(--heading-color);
 }
-.main-top-navbar .navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show > .nav-link {
+#active {
 	color: var(--bluetype-background-color);
 	font-family: var(--regular-font-family);
 	font-size: 16px;
@@ -37,7 +45,6 @@ li.nav-item.dropdown.has-megamenu {
 	height: 41px;
 	display: flex;
 	align-items: center;
-	/* border: 0.02em solid #b3b3bc; */
 	cursor: pointer;
 	transition: all 0.3s ease-in-out 0.1s, box-shadow 0.2s ease-out,
 		transform 0.2s ease-out;
@@ -269,13 +276,6 @@ span.freight {
 	display: none;
 	width: 100%;
 }
-/* .map svg {
-	position: absolute;
-	display: none;
-	top: -20px;
-	height: 650px;
-	z-index: -1;
-} */
 section#banner {
 	position: relative;
 }
@@ -409,9 +409,7 @@ section#quality {
 	color: #99b3bb;
 	font-size: 30px;
 }
-/* .slider-quantity .slick-list.draggable {
-	padding: 50px 0px !important;
-} */
+
 .verticle.slider {
 	margin: 0px 0 21px 0;
 	height: 180px;
@@ -420,8 +418,7 @@ section#quality {
 .removeTransform {
 	transform: none !important;
 }
-.verticle.slider.slick-slide.slick-current.slick-active.slick-center {
-}
+
 .verticle.slider.slick-slide.slick-current.slick-active.slick-center h4 {
 	color: #fff;
 }
@@ -570,7 +567,7 @@ a.faq-btn {
 .logo-para h5 {
 	font-size: 29px;
 	margin-top: 55px;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 .footer-iconics ul {
 	display: flex;
@@ -604,7 +601,7 @@ footer.footer {
 	color: #292929;
 	font-family: var(--light-font-family);
 	font-size: 14px;
-	margin: 46px 0 0 0;
+	padding: 20px 0 0 0;
 }
 .footer-wrapper h5 {
 	font-size: 28px;

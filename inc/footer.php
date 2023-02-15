@@ -43,9 +43,9 @@
                         <div class="footer-wrapper">
                             <h5>Quick Links</h5>
                             <ul>
-                                <li><a href="faq.php">Home
+                                <li><a href="index.php">Home
                                     </a></li>
-                                <li><a href="privacy-policy.php">Cargo Tracking</a></li>
+                                <li><a href="warehouse.php">Cargo Tracking</a></li>
                             </ul>
                         </div>
                     </div>
@@ -54,12 +54,12 @@
                             <h5>Legal
                             </h5>
                             <ul>
-                                <li><a href="index.php">Terms & Condition
+                                <li><a href="term-condition.php">Terms & Condition
                                     </a></li>
-                                <li><a href="aboutus.php">Privacy Policy
+                                <li><a href="privacy.php">Privacy Policy
 
                                     </a></li>
-                                <li><a href="customizable-products.php">shipment</a></li>
+                                <li><a href="shipment.php">shipment</a></li>
                             </ul>
                         </div>
                     </div>
@@ -69,12 +69,12 @@
                         <div class="footer-wrapper">
                             <h5>Company Info</h5>
                             <ul>
-                                <li><a href="faq.php">About Us
+                                <li><a href="about.php">About Us
                                     </a></li>
-                                <li><a href="privacy-policy.php">Services</a></li>
-                                <li><a href="privacy-policy.php">Cargo Tracking</a></li>
-                                <li><a href="privacy-policy.php">Member Center</a></li>
-                                <li><a href="privacy-policy.php">Contact</a></li>
+                                <li><a href="service.php">Services</a></li>
+                                <li><a href="warehouse.php">Cargo Tracking</a></li>
+                                <li><a href="warehouse.php">Member Center</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>

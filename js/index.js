@@ -3,10 +3,9 @@ $(window).on("load", function () {
 	$(".circle").fadeOut(1000);
 	$(".message").fadeOut(1000);
 });
-// window scroll top
-// $(document).ready(function () {
-// 	$(window).scrollTop(0);
-// });
+$(document).ready(function () {
+	$(window).scrollTop(0);
+});
 // dropdown
 document.addEventListener("DOMContentLoaded", function () {
 	/////// Prevent closing from click inside dropdown
@@ -77,7 +76,6 @@ jQuery(".slider-quantity .slick-slide").click(function () {
 		jQuery(".slider-quantity .slick-track").addClass("removeTransform");
 	}
 });
-
 $(document).ready(function () {
 	$(".slider-review-wrapper").slick({
 		slidesToShow: 2,

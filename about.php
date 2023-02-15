@@ -45,7 +45,7 @@
                     <div class="quality-heading">
                         <h1>CY UK <span class="span"> Your Reliable
                                 Logistics Partner</span></h1>
-                        <a href="" class="btn">Contact Us</a>
+                        <a href="contact-us.php" class="btn">Contact Us</a>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -62,6 +62,10 @@
                         <div class="verticle slider">
                             <h4>Cold Chain Specialist </h4>
                             <p>We are not only doing general goods, but also frozen goods.</p>
+                        </div>
+                        <div class="verticle slider">
+                            <h4>Neutral for UK freight forwarder </h4>
+                            <p>Issue MAWB as you are consignee by our China office.</p>
                         </div>
                     </div>
                 </div>
@@ -98,7 +102,7 @@
                             </li>
                         </ul>
                         <div class="about-btn">
-                            <a class="btn" href="">Book Now</a>
+                            <a class="btn" href="book.php">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -167,26 +171,68 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12">
                 <img src="img/step-wrapper.png" class="img-fluid" alt="">
             </div>
-        </div>
-        <!-- <div class="row">
+        </div> -->
+        <div class="row">
             <div class="col-lg-12">
-                <div class="progress-bar progress-bar1">
+                <div class="progress-main">
                     <ul class="prograss-bar1">
-                        <li>01</li>
-                        <li>02</li>
+                        <li>
+                            <div class="step-wrapper">
+                                <h4>01</h4>
+                                <div class="step-img">
+                                    <a href="">
+                                        <img src="img/step.png" class="img-fluid" alt="">
+                                        <h5>Book Service</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step-wrapper">
+                                <h4>02</h4>
+                                <div class="step-img">
+                                    <a href="">
+                                        <img src="img/step3.png" class="img-fluid" alt="">
+                                        <h5>Warehouse</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
-                    <div class="progress-line"></div>
-                    <ul class="prograss-bar">
-                        <li>01</li>
-                        <li>02</li>
+                    <div class="progress-bar progress-bar1">
+                        <div class="progress-line"></div>
+                    </div>
+                    <ul class="prograss-bar1 prograss-bar2 ">
+                        <li>
+                            <div class="step-wrapper">
+                                <h4>04</h4>
+                                <div class="step-img">
+                                    <a href="">
+                                        <img src="img/step2.png" class="img-fluid" alt="">
+                                        <h5>Delivery</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step-wrapper">
+                                <h4>03</h4>
+                                <div class="step-img">
+                                    <a href="">
+                                        <img src="img/step1.png" class="img-fluid" alt="">
+                                        <h5>Shipment</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </div> -->
+        </div>
     </div>
 </section>
 <!-- Logistics process end -->

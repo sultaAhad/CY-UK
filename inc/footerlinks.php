@@ -26,28 +26,28 @@
 
 <!-- aos js -->
 <script>
-AOS.init();
+    AOS.init();
 </script>
 
 <!-- wow animated  -->
 <script>
-wow = new WOW({
-    boxClass: 'wow', // default
-    animateClass: 'animated', // default
-    offset: 0, // default
-    mobile: true, // default
-    live: true // default
-})
+    wow = new WOW({
+        boxClass: 'wow', // default
+        animateClass: 'animated', // default
+        offset: 0, // default
+        mobile: true, // default
+        live: true // default
+    })
 </script>
 
 <!-- header navbar -->
 <script>
-const CurrentLocation = location.href;
-const menuItem = document.querySelectorAll(".normal-nav-items .menu");
-const menuLength = menuItem.length;
-for (let i = 0; i < menuLength; i++) {
-    if (menuItem[i].href === CurrentLocation) {
-        menuItem[i].id = "active";
+    const CurrentLocation = location.href;
+    const menuItem = document.querySelectorAll(".main-top-navbar .navbar-light .navbar-nav .nav-link");
+    const menuLength = menuItem.length;
+    for (let i = 0; i < menuLength; i++) {
+        if (menuItem[i].href === CurrentLocation) {
+            menuItem[i].id = "active";
+        }
     }
-}
 </script>

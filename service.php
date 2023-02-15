@@ -66,7 +66,7 @@
                                     nec ultrices dui sapien. At auctor urna nunc id cursus metus aliquam. Maecenas
                                     accumsan lacus vel facilisis volutpat. Et malesuada fames ac turpis egestas sed
                                     tempus. Auctor augue mauris augue neque gravida.</p>
-                                <a class="btn" href="">Book Now</a>
+                                <a class="btn" href="book.php">Book Now</a>
                             </div>
                         </div>
                         <div class="col-lg-2"></div>
@@ -83,7 +83,7 @@
                     <p>UUltricies mi quis hendrerit dolor magna eget est. Rhoncus urna neque viverra justo nec ultrices
                         dui sapien. At auctor urna nunc id cursus metus aliquam. Maecenas accumsan lacus vel facilisis
                         volutpat. Et malesuada fames. </p>
-                    <a href="" class="btn">Book Now</a>
+                    <a href="book.php" class="btn">Book Now</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -94,7 +94,7 @@
                     <p>UUltricies mi quis hendrerit dolor magna eget est. Rhoncus urna neque viverra justo nec ultrices
                         dui sapien. At auctor urna nunc id cursus metus aliquam. Maecenas accumsan lacus vel facilisis
                         volutpat. Et malesuada fames. </p>
-                    <a href="" class="btn">Book Now</a>
+                    <a href="book.php" class="btn">Book Now</a>
                 </div>
             </div>
 
@@ -112,7 +112,7 @@
                         dui sapien. At auctor urna nunc id cursus metus aliquam. Maecenas accumsan lacus vel
                         facilisis
                         volutpat. Et malesuada fames. </p>
-                    <a href="" class="btn">Book Now</a>
+                    <a href="book.php" class="btn">Book Now</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -126,7 +126,7 @@
                         dui sapien. At auctor urna nunc id cursus metus aliquam. Maecenas accumsan lacus vel
                         facilisis
                         volutpat. Et malesuada fames. </p>
-                    <a href="" class="btn">Book Now</a>
+                    <a href="book.php" class="btn">Book Now</a>
                 </div>
             </div>
         </div>
