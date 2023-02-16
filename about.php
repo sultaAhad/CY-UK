@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="sec-about-img">
-                        <img src="img/about-machine.png" class="img-fluid" alt="">
+                        <img src="img/about-machine.webp" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                 <div class="ship-wrapper">
                     <div class="row">
                         <div class="col-lg-6">
-                            <img src="img/work.png" class="img-fluid" alt="">
+                            <img src="img/work.webp" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-5 align-self-center">
                             <div class="review-heading-para">
@@ -173,7 +173,7 @@
         </div>
         <!-- <div class="row">
             <div class="col-lg-12">
-                <img src="img/step-wrapper.png" class="img-fluid" alt="">
+                <img src="img/step-wrapper.webp" class="img-fluid" alt="">
             </div>
         </div> -->
         <div class="row">
@@ -185,7 +185,7 @@
                                 <h4>01</h4>
                                 <div class="step-img">
                                     <a href="">
-                                        <img src="img/step.png" class="img-fluid" alt="">
+                                        <img src="img/step.webp" class="img-fluid" alt="">
                                         <h5>Book Service</h5>
                                     </a>
                                 </div>
@@ -196,7 +196,7 @@
                                 <h4>02</h4>
                                 <div class="step-img">
                                     <a href="">
-                                        <img src="img/step3.png" class="img-fluid" alt="">
+                                        <img src="img/step3.webp" class="img-fluid" alt="">
                                         <h5>Warehouse</h5>
                                     </a>
                                 </div>
@@ -212,7 +212,7 @@
                                 <h4>04</h4>
                                 <div class="step-img">
                                     <a href="">
-                                        <img src="img/step2.png" class="img-fluid" alt="">
+                                        <img src="img/step2.webp" class="img-fluid" alt="">
                                         <h5>Delivery</h5>
                                     </a>
                                 </div>
@@ -223,7 +223,7 @@
                                 <h4>03</h4>
                                 <div class="step-img">
                                     <a href="">
-                                        <img src="img/step1.png" class="img-fluid" alt="">
+                                        <img src="img/step1.webp" class="img-fluid" alt="">
                                         <h5>Shipment</h5>
                                     </a>
                                 </div>

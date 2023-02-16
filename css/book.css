@@ -10,9 +10,20 @@
 	font-family: var(--bold-font-family);
 	font-size: clamp(12px, 5vw, 16px);
 }
-.form-footer.form-contact {
-	overflow-y: scroll;
-	height: 100vh;
+.f.form-footer.form-contact {
+	height: 130vh;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.form-footer.form-contact::-webkit-scrollbar {
+	width: 0; /* Remove scrollbar space */
+	background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+.form-footer.form-contact::-webkit-scrollbar-thumb {
+	background: #ff0000;
 }
 .banner-heading-para {
 	margin-top: 110px;

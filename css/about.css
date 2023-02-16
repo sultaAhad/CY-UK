@@ -1,5 +1,5 @@
 #about-banner {
-	background-image: url(../img/about-track.png);
+	background-image: url(../img/about-track.webp);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 770px;
@@ -209,4 +209,77 @@ ul.prograss-bar1 li h4 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+@media (max-width: 575px) {
+	.banner-heading h1 {
+		font-size: 49px;
+	}
+	.banner-heading-para {
+		margin-top: 50px;
+	}
+	#about-banner {
+		background-size: 100% 80%;
+		height: 480px;
+		background-position: center;
+	}
+	section#specialised {
+		padding: 0px 0 70px 0;
+		background-color: #f2f2f2;
+	}
+	.heading-slider h2 {
+		font-size: 25px;
+	}
+	ul.prograss-bar1 li h4 {
+		width: 50px;
+		height: 50px;
+		font-size: clamp(17px, 5vw, 10px);
+	}
+	.step-img img {
+		width: 132px;
+		height: 130px;
+	}
+	ul.prograss-bar1 {
+		top: -71px;
+		width: 83%;
+	}
+	.step-img h5 {
+		font-size: clamp(14px, 5vw, 18px);
+	}
+	.progress-line {
+		width: 100px;
+	}
+	ul.prograss-bar1.prograss-bar2 {
+		position: relative;
+		top: -84px;
+		left: 50px;
+	}
+	.progress-bar:after {
+		width: 95%;
+	}
+	section#about-us {
+		padding: 49px 0;
+	}
+	.logistic-heading-para p {
+		padding-right: 41px;
+		margin-top: 30px;
+	}
+	.about-heading h2 {
+		font-size: clamp(48px, 5vw, 74px);
+	}
+	section#Logistics-process {
+		padding: 32px 0px;
+	}
+	.logistic-heading-para {
+		margin-bottom: 39px;
+		padding-bottom: 34px;
+	}
+	.progress-main {
+		height: 405px;
+	}
+	#Faqs {
+		padding: 84px 0;
+	}
+	.verticle.slider {
+		height: 97px;
+	}
 }

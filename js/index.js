@@ -87,19 +87,18 @@ $(document).ready(function () {
 		nextArrow: false,
 		responsive: [
 			{
-				breakpoint: 768,
+				breakpoint: 1024,
 				settings: {
 					arrows: false,
-					centerMode: true,
 					slidesToShow: 2,
 				},
 			},
 			{
-				breakpoint: 480,
+				breakpoint: 768,
 				settings: {
 					arrows: false,
-					centerMode: true,
 					slidesToShow: 1,
+					slidesToScroll: 1,
 				},
 			},
 		],

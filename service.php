@@ -55,7 +55,7 @@
                 <div class="ship-wrapper">
                     <div class="row">
                         <div class="col-lg-5">
-                            <img src="img/ship.png" class="img-fluid" alt="">
+                            <img src="img/ship.webp" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-5 align-self-center">
                             <div class="review-heading-para">
@@ -77,7 +77,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="business-card card1">
-                    <img src="img/plan.png" class="img-fluid" alt="">
+                    <img src="img/plan.webp" class="img-fluid" alt="">
                     <h3>Aircargo Services</h3>
                     <h2>Faster Cheaper & reliable </h2>
                     <p>UUltricies mi quis hendrerit dolor magna eget est. Rhoncus urna neque viverra justo nec ultrices
@@ -88,7 +88,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="business-card card1">
-                    <img src="img/project-service.png" class="img-fluid" alt="">
+                    <img src="img/project-service.webp" class="img-fluid" alt="">
                     <h3>Project Services</h3>
                     <h2>Faster Cheaper & reliable </h2>
                     <p>UUltricies mi quis hendrerit dolor magna eget est. Rhoncus urna neque viverra justo nec ultrices
@@ -102,7 +102,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="business-card card1">
-                    <img src="img/deport.png" class="img-fluid" alt="">
+                    <img src="img/deport.webp" class="img-fluid" alt="">
                     <h3>Depots & Warehousing
                         & Distributing</h3>
                     <h2>Faster Cheaper & reliable </h2>
@@ -117,7 +117,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="business-card card1">
-                    <img src="img/agency-cran.png" class="img-fluid" alt="">
+                    <img src="img/agency-cran.webp" class="img-fluid" alt="">
                     <h3>Agency Services</h3>
                     <h2>Faster Cheaper & reliable </h2>
                     <p class="para-about">UUltricies mi quis hendrerit dolor magna eget est. Rhoncus urna neque

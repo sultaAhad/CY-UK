@@ -2,6 +2,9 @@
 .main-top-navbar a img {
 	height: 90px;
 }
+.main-top-navbar .container {
+	padding: 0;
+}
 a.btn.header-service {
 	width: 39%;
 }
@@ -187,7 +190,8 @@ li.nav-item.dropdown.has-megamenu {
 
 /* Banner css start */
 .banner-img img {
-	margin-top: 50px;
+	background-color: #f2f2f2;
+	mix-blend-mode: multiply;
 }
 .banner-wrapper {
 	position: relative;
@@ -268,7 +272,6 @@ span.freight {
 .map svg {
 	fill: #f2f2f2;
 	background-color: #f2f2f2;
-	opacity: 0.2;
 	position: absolute;
 	background-blend-mode: multiply;
 	z-index: -1;
@@ -374,7 +377,7 @@ section#business {
 
 /* quality css start */
 section#quality {
-	background-image: url(../img/quality.png);
+	background-image: url(../img/quality.webp);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	padding: 20px 0px;
@@ -462,6 +465,8 @@ section#review-about {
 	mix-blend-mode: multiply;
 	top: 280px;
 	background-blend-mode: multiply;
+	top: 10px;
+	height: 230%;
 }
 .name-engineers h5 {
 	color: #000000;
@@ -478,7 +483,7 @@ section#review-about {
 
 /* faqs css start */
 #Faqs {
-	background-image: url(../img/faqs.png);
+	background-image: url(../img/faqs.webp);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	padding: 150px 0;
@@ -508,7 +513,7 @@ section#review-about {
 .faqs-heading h1 {
 	color: #fbfcfd;
 	padding-bottom: 10px;
-	font-size: clamp(25px, 5vw, 80px);
+	font-size: clamp(60px, 5vw, 80px);
 }
 .faqs-heading h4 {
 	color: #fbfcfd;
@@ -638,7 +643,7 @@ footer.footer {
 /* LABEL ======================================= */
 .form-footer label {
 	color: #999;
-	font-size: 18px;
+	font-size: clamp(15px, 5vw, 18px);
 	font-weight: normal;
 	position: absolute;
 	pointer-events: none;
@@ -738,3 +743,513 @@ input:valid ~ label {
 	}
 }
 /* footer css end */
+
+/* media responsive start */
+@media (max-width: 1366px) {
+	.business-card p {
+		padding-right: unset;
+		margin: 14px 0;
+	}
+	a.btn.header-service {
+		width: 53%;
+	}
+	.banner-heading-para p {
+		padding-right: unset;
+		padding-top: 60px;
+		font-size: 14px;
+	}
+	.banner-heading-para {
+		margin-top: 81px;
+	}
+	.form-footer label {
+		font-size: clamp(10px, 5vw, 15px);
+	}
+	.dbl-banner-btn a {
+		width: 40%;
+	}
+	.about-heading-para p {
+		font-size: 12px;
+	}
+	.list-about ul li p {
+		font-size: 12px;
+	}
+	.business-card h3 {
+		font-size: 29px;
+	}
+	.business-card a {
+		width: 50%;
+	}
+	.verticle.slider h4 {
+		color: #99b3bb;
+		font-size: 22px;
+	}
+	.verticle.slider p {
+		color: #99b3bb;
+		font-size: 13px;
+	}
+	.review-heading p {
+		padding-right: unset;
+	}
+	.review-heading h2 {
+		font-size: 30px;
+	}
+	.review-heading-para h6 {
+		font-size: 24px;
+	}
+	.review-heading-para p {
+		font-size: 10px;
+	}
+	.name-engineers h5 {
+		font-size: 15px;
+	}
+	.name-engineers h6 {
+		font-size: 14px;
+	}
+	.faqs-headinds-para h5 {
+		line-height: 1.5;
+		font-size: 15px;
+	}
+}
+@media (max-width: 1280px) {
+	.business-card p {
+		padding-right: unset;
+		margin: 14px 0;
+	}
+	a.btn.header-service {
+		width: 53%;
+	}
+	.banner-heading-para p {
+		padding-right: unset;
+		padding-top: 60px;
+		font-size: 14px;
+	}
+	.banner-heading-para {
+		margin-top: 81px;
+	}
+	.form-footer label {
+		font-size: clamp(10px, 5vw, 12px);
+	}
+	.dbl-banner-btn a {
+		width: 40%;
+	}
+	.about-heading-para p {
+		font-size: 12px;
+	}
+	.list-about ul li p {
+		font-size: 12px;
+	}
+	.business-card h3 {
+		font-size: 29px;
+	}
+	.business-card a {
+		width: 50%;
+	}
+	.verticle.slider h4 {
+		color: #99b3bb;
+		font-size: 22px;
+	}
+	.verticle.slider p {
+		color: #99b3bb;
+		font-size: 13px;
+	}
+	.review-heading p {
+		padding-right: unset;
+	}
+	.review-heading h2 {
+		font-size: 30px;
+	}
+	.review-heading-para h6 {
+		font-size: 24px;
+	}
+	.review-heading-para p {
+		font-size: 10px;
+	}
+	.name-engineers h5 {
+		font-size: 15px;
+	}
+	.name-engineers h6 {
+		font-size: 14px;
+	}
+	.faqs-headinds-para h5 {
+		line-height: 1.5;
+		font-size: 15px;
+	}
+}
+@media (max-width: 1024px) {
+	.business-card p {
+		padding-right: unset;
+		margin: 14px 0;
+	}
+	a.btn.header-service {
+		width: 53%;
+	}
+	.banner-heading-para p {
+		padding-right: unset;
+		padding-top: 60px;
+		font-size: 14px;
+	}
+	.banner-heading-para {
+		margin-top: 81px;
+	}
+	.form-footer label {
+		font-size: clamp(10px, 5vw, 12px);
+	}
+	.dbl-banner-btn a {
+		width: 40%;
+	}
+	.about-heading-para p {
+		font-size: 12px;
+	}
+	.list-about ul li p {
+		font-size: 12px;
+	}
+	.business-card h3 {
+		font-size: 30px;
+	}
+	.business-card a {
+		width: 50%;
+	}
+	.verticle.slider h4 {
+		color: #99b3bb;
+		font-size: 22px;
+	}
+	.verticle.slider p {
+		color: #99b3bb;
+		font-size: 13px;
+	}
+	.review-heading p {
+		padding-right: unset;
+	}
+	.review-heading h2 {
+		font-size: 30px;
+	}
+	.review-heading-para h6 {
+		font-size: 24px;
+	}
+	.review-heading-para p {
+		font-size: 10px;
+	}
+	.name-engineers h5 {
+		font-size: 15px;
+	}
+	.name-engineers h6 {
+		font-size: 14px;
+	}
+	.faqs-headinds-para h5 {
+		line-height: 1.5;
+		font-size: 15px;
+	}
+}
+@media (max-width: 912px) {
+	.banner-heading-para {
+		margin-top: 70px;
+	}
+	.banner-heading-para p {
+		padding-right: 0px;
+		padding-top: 67px;
+	}
+	.sec-about-img {
+		margin-top: 40px;
+	}
+	.business-card.card1 {
+		margin-right: unset;
+		margin-bottom: 40px;
+	}
+	.business-card.card2 {
+		margin-left: unset;
+	}
+	section#business {
+		padding: 0px 0px 90px 0px;
+	}
+	.verticle.slider {
+		margin: 0px 0 51px 0;
+	}
+	.slider-quantity .slick-list.draggable {
+		height: 463px !important;
+	}
+	.img-review img {
+		width: 100%;
+		object-fit: cover;
+	}
+	.review-heading-para {
+		margin-top: 10px;
+	}
+	.faqs-heading {
+		margin-bottom: 40px;
+	}
+	.faqs-headinds-para {
+		padding-left: 40px;
+		margin-left: 9px;
+	}
+	section#review-about {
+		padding: 68px 0;
+	}
+	footer.footer {
+		padding: 60px 0 40px 0;
+	}
+	.logo-para h1:after {
+		bottom: 9px;
+	}
+	.banner-heading h1 {
+		top: -20px;
+	}
+	.logo-para h5 {
+		margin-top: 25px;
+	}
+	.footer-iconics {
+		margin: 38px 0 0 0;
+	}
+	footer.footer {
+		padding: 60px 0 10px 0;
+	}
+	.main-top-navbar .navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+	.business-card.card1.service-card {
+		margin: unset;
+		margin-bottom: 40px;
+	}
+	.map svg {
+		left: 0;
+	}
+	.business-card p {
+		padding-right: unset;
+		margin: 14px 0;
+	}
+	a.btn.header-service {
+		width: 50%;
+	}
+	.main-top-navbar nav.navbar.navbar-expand-lg.navbar-light {
+		padding: 0px 20px 40px 0px;
+	}
+}
+@media (max-width: 820px) {
+	.banner-heading-para {
+		margin-top: 70px;
+	}
+	.banner-heading-para p {
+		padding-right: 0px;
+		padding-top: 67px;
+	}
+	.sec-about-img {
+		margin-top: 40px;
+	}
+	.business-card.card1 {
+		margin-right: unset;
+		margin-bottom: 40px;
+	}
+	.business-card.card2 {
+		margin-left: unset;
+	}
+	section#business {
+		padding: 0px 0px 90px 0px;
+	}
+	.verticle.slider {
+		margin: 0px 0 51px 0;
+	}
+	.slider-quantity .slick-list.draggable {
+		height: 463px !important;
+	}
+	.img-review img {
+		width: 100%;
+		object-fit: cover;
+	}
+	.review-heading-para {
+		margin-top: 10px;
+	}
+	.faqs-heading {
+		margin-bottom: 40px;
+	}
+	.faqs-headinds-para {
+		padding-left: 40px;
+		margin-left: 9px;
+	}
+	section#review-about {
+		padding: 68px 0;
+	}
+	footer.footer {
+		padding: 60px 0 40px 0;
+	}
+	.logo-para h1:after {
+		bottom: 9px;
+	}
+	.banner-heading h1 {
+		top: -20px;
+	}
+	.logo-para h5 {
+		margin-top: 25px;
+	}
+	.footer-iconics {
+		margin: 38px 0 0 0;
+	}
+	footer.footer {
+		padding: 60px 0 10px 0;
+	}
+	.main-top-navbar .navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+	.business-card.card1.service-card {
+		margin: unset;
+		margin-bottom: 40px;
+	}
+	.map svg {
+		left: 0;
+	}
+	.business-card p {
+		padding-right: unset;
+		margin: 14px 0;
+	}
+	a.btn.header-service {
+		width: 50%;
+	}
+	.main-top-navbar nav.navbar.navbar-expand-lg.navbar-light {
+		padding: 0px 20px 40px 0px;
+	}
+}
+@media (max-width: 575px) {
+	.banner-heading-para {
+		margin-top: 70px;
+	}
+	.banner-heading-para p {
+		padding-right: 0px;
+		padding-top: 40px;
+	}
+	.sec-about-img {
+		margin-top: 40px;
+	}
+	.business-card.card1 {
+		margin-right: unset;
+		margin-bottom: 40px;
+	}
+	.business-card.card2 {
+		margin-left: unset;
+	}
+	section#business {
+		padding: 0px 0px 90px 0px;
+	}
+	.verticle.slider {
+		margin: 0px 0 51px 0;
+	}
+	.slider-quantity .slick-list.draggable {
+		height: 463px !important;
+	}
+	.img-review img {
+		width: 100%;
+		object-fit: cover;
+	}
+	.review-heading-para {
+		margin-top: 10px;
+	}
+	.faqs-heading {
+		margin-bottom: 40px;
+	}
+	.faqs-headinds-para {
+		padding-left: 40px;
+		margin-left: 9px;
+	}
+	section#review-about {
+		padding: 68px 0;
+	}
+	footer.footer {
+		padding: 60px 0 40px 0;
+	}
+	.logo-para h1:after {
+		bottom: 9px;
+	}
+	.banner-heading h1 {
+		top: -20px;
+	}
+	.logo-para h5 {
+		margin-top: 25px;
+	}
+	.footer-iconics {
+		margin: 38px 0 0 0;
+	}
+	footer.footer {
+		padding: 60px 0 10px 0;
+	}
+	.main-top-navbar .navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+	.business-card.card1.service-card {
+		margin: unset;
+		margin-bottom: 40px;
+	}
+	.map svg {
+		left: 0;
+	}
+	.business-card p {
+		padding-right: unset;
+		margin: 14px 0;
+	}
+	a.btn.header-service {
+		width: 50%;
+	}
+	.main-top-navbar nav.navbar.navbar-expand-lg.navbar-light {
+		padding: 0px 20px 40px 0px;
+	}
+}
+@media (max-width: 414px) {
+	.business-card h3 {
+		margin-top: 10px;
+		font-size: 19px;
+	}
+	.business-card p {
+		padding-right: unset;
+		font-size: 13px;
+	}
+	.banner-heading h1 {
+		top: 3px;
+		font-size: 50px;
+	}
+	.dbl-banner-btn a {
+		margin: 20px 16px 20px 0px;
+		width: 40%;
+	}
+	.btn {
+		width: 40%;
+		margin: 10px 0;
+	}
+	.about-heading-para p {
+		padding-right: 0px;
+	}
+	.list-about ul li p {
+		padding-right: 0px;
+	}
+	.business-card a {
+		width: 100%;
+	}
+	.about-btn a.btn {
+		width: 40%;
+	}
+	.verticle.slider h4 {
+		font-size: 22px;
+	}
+	.verticle.slider p {
+		font-size: 12px;
+	}
+	a.btn.header-service {
+		width: 100%;
+	}
+	.review-heading p {
+		padding-right: unset;
+	}
+	section#business h1 {
+		font-size: clamp(39px, 5vw, 80px);
+	}
+	.logo-para h5 {
+		font-size: 25px;
+	}
+	.business-card p {
+		padding-right: unset;
+	}
+	.main-top-navbar nav.navbar.navbar-expand-lg.navbar-light {
+		padding: 1px 26px 40px 4px;
+	}
+	.faqs-headinds-para p {
+		padding-bottom: 16px;
+		margin-bottom: 6px;
+		font-size: 13px;
+	}
+}
+/* media responsive end */

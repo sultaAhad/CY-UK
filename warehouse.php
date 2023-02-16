@@ -111,7 +111,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <img src="img/map-depot.png" class="img-fluid" alt="">
+                <img src="img/map-depot.webp" class="img-fluid" alt="">
             </div>
         </div>
     </div>

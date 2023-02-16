@@ -15,7 +15,7 @@
             <div class="col-lg-5 mx-auto">
                 <div class="main-img-wrapper">
                     <a href="index.php">
-                        <img src="img/cy-uk-login.png" class="img-fluid" alt="">
+                        <img src="img/cy-uk-login.webp" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="login-form-wrapper">
