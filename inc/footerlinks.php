@@ -29,7 +29,7 @@
         y: -05,
         opacity: 1,
         ease: "power4.out",
-        delay: 0.5,
+        delay: 2,
         stagger: {
             amount: 0.3
         }
