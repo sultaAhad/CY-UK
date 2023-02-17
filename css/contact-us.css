@@ -159,3 +159,35 @@ textarea:focus ~ .bar:after {
 	border-radius: 50px;
 	color: #fff;
 }
+@media (max-width: 414px) {
+	#about-banner {
+		height: 430px;
+		background-position: center;
+	}
+	.banner-heading h1 {
+		top: -57px;
+		font-size: 50px;
+	}
+	.banner-heading-para {
+		margin-top: 10px;
+	}
+	.btn {
+		width: 40%;
+	}
+}
+@media (max-width: 360px) {
+	#about-banner {
+		height: 430px;
+		background-position: center;
+	}
+	.banner-heading h1 {
+		top: -57px;
+		font-size: 46px;
+	}
+	.banner-heading-para {
+		margin-top: 10px;
+	}
+	.btn {
+		width: 40%;
+	}
+}

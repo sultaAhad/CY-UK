@@ -10,6 +10,7 @@ section#login-section {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 100vh;
+	margin-bottom: 50px;
 }
 section#thnaks-section {
 	background-image: url(../img/logistic1.webp);

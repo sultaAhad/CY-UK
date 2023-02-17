@@ -37,7 +37,7 @@ li.nav-item.dropdown.has-megamenu {
 .main-top-navbar .navbar-light .navbar-nav .nav-link {
 	font-family: var(--regular-font-family);
 	font-size: 16px;
-	padding: 20px 0 20px 0;
+	padding: 0px 0 20px 0;
 }
 .main-top-navbar nav.navbar.navbar-expand-lg.navbar-light {
 	padding: 0px 0 40px 0;
@@ -1024,6 +1024,9 @@ input:valid ~ label {
 	}
 }
 @media (max-width: 820px) {
+	#Faqs {
+		padding: 80px 0;
+	}
 	.banner-heading-para {
 		margin-top: 70px;
 	}
@@ -1190,6 +1193,9 @@ input:valid ~ label {
 	}
 }
 @media (max-width: 414px) {
+	.dropdown-menu.megamenu {
+		padding: 30px 20px;
+	}
 	.business-card h3 {
 		margin-top: 10px;
 		font-size: 19px;
