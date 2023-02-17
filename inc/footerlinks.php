@@ -12,6 +12,30 @@
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- slick slider js -->
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script>
+    const tl = gsap.timeline();
+
+    tl.to(".banner-heading h1", 1.8, {
+        y: -05,
+        opacity: 1,
+        ease: "power4.out",
+        delay: 1,
+        stagger: {
+            amount: 0.3
+        }
+    })
+    tl.to(".banner-heading-para h2", 1.8, {
+        y: -05,
+        opacity: 1,
+        ease: "power4.out",
+        delay: 0.5,
+        stagger: {
+            amount: 0.3
+        }
+    })
+</script>
+
 
 <!-- header navbar -->
 <script>
