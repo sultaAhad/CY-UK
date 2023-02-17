@@ -1,7 +1,7 @@
 // preloader
 $(window).on("load", function () {
-	$(".circle").fadeOut(1000);
-	$(".message").fadeOut(1000);
+	$(".circle").fadeOut(500);
+	$(".message").fadeOut(500);
 });
 $(document).ready(function () {
 	$(window).scrollTop(0);
