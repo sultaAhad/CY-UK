@@ -499,6 +499,9 @@ ul.prograss-bar1 li h4 {
 	.banner-heading h1 {
 		font-size: 50px;
 	}
+	section#quality {
+		height: 140vh;
+	}
 	.banner-heading h1 {
 		top: -85px;
 		font-size: 50px;
@@ -548,7 +551,120 @@ ul.prograss-bar1 li h4 {
 	}
 	ul.prograss-bar1 {
 		top: -71px;
-		width: 83%;
+		width: 101%;
+	}
+	.step-img h5 {
+		font-size: clamp(14px, 5vw, 18px);
+	}
+	.progress-line {
+		width: 84px;
+		top: 21px;
+	}
+	ul.prograss-bar1.prograss-bar2 {
+		position: relative;
+		top: -84px;
+		left: 50px;
+	}
+	.progress-bar:after {
+		width: 95%;
+	}
+	section#about-us {
+		padding: 49px 0;
+	}
+	.logistic-heading-para p {
+		padding-right: 41px;
+		margin-top: 30px;
+	}
+	.about-heading h2 {
+		font-size: clamp(33px, 5vw, 74px);
+	}
+	.about-heading-para h2 {
+		font-size: 26px;
+	}
+	.review-heading-para a {
+		width: 40%;
+	}
+	.progress-bar {
+		height: 228px;
+	}
+	section#Logistics-process {
+		padding: 32px 0px;
+	}
+	.logistic-heading-para {
+		margin-bottom: 39px;
+		padding-bottom: 34px;
+	}
+	.progress-main {
+		height: 295px;
+	}
+	#Faqs {
+		padding: 84px 0;
+	}
+	.verticle.slider {
+		height: 97px;
+	}
+	.progress-bar:after {
+		width: 92%;
+		height: 206px;
+	}
+}
+@media (max-width: 375px) {
+	.banner-heading h1 {
+		font-size: 50px;
+	}
+	section#quality {
+		height: 140vh;
+	}
+	.banner-heading h1 {
+		top: -85px;
+		font-size: 50px;
+	}
+	.main-top-navbar nav.navbar.navbar-expand-lg.navbar-light {
+		padding: 1px 26px 99px 4px;
+	}
+	.banner-heading-para h3 {
+		font-size: 21px;
+	}
+	.banner-heading-para {
+		margin-top: 50px;
+	}
+	#about-banner {
+		background-size: 100% 80%;
+		height: 390px;
+		background-position: center;
+	}
+	.slider-quantity .slick-list.draggable {
+		height: 323px !important;
+	}
+	.step-img h5 {
+		font-size: clamp(14px, 5vw, 17px);
+	}
+	section#specialised {
+		padding: 0px 0 40px 0;
+		background-color: #f2f2f2;
+	}
+	.main-quantity .quality-heading h1 {
+		margin-bottom: 7px;
+	}
+	.quality-heading h1 {
+		font-size: clamp(22px, 5vw, 77px);
+		color: #fff;
+	}
+	.heading-slider h2 {
+		font-size: 18px;
+	}
+	ul.prograss-bar1 li h4 {
+		width: 40px;
+		height: 40px;
+		font-size: clamp(17px, 5vw, 10px);
+	}
+	.step-img img {
+		width: 132px;
+		height: 130px;
+	}
+	ul.prograss-bar1 {
+		top: -71px;
+		width: 101%;
 	}
 	.step-img h5 {
 		font-size: clamp(14px, 5vw, 18px);

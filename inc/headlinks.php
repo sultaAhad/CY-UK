@@ -25,15 +25,7 @@
 <link rel="stylesheet" href="css/variables.css">
 <!--    Custom CSS-->
 
-<!-- aos css -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<!-- aos css -->
-
 <!-- slick slider cdn -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 <!-- slick slider cdn -->
-
-<!-- swapper slider cdn -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-<!-- swapper slider cdn -->
