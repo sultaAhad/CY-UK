@@ -10,7 +10,7 @@
 	font-family: var(--bold-font-family);
 	font-size: clamp(12px, 5vw, 16px);
 }
-.f.form-footer.form-contact {
+.form-footer.form-contact {
 	height: 130vh;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
@@ -42,4 +42,13 @@ a.btn.submit {
 section#banner {
 	position: relative;
 	padding-bottom: 50px;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+@media (max-width: 1024px) {
+	.banner-heading-para {
+		margin-top: 80px;
+		padding-right: 70px;
+	}
 }

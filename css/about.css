@@ -15,6 +15,9 @@
 	margin: 0px 0 21px 0;
 	height: 121px;
 }
+.banner-heading-para h3 {
+	font-size: 40px;
+}
 .heading-slider h2 {
 	font-family: var(--medium-font-family);
 	font-size: 70px;
@@ -259,6 +262,18 @@ ul.prograss-bar1 li h4 {
 	#about-banner {
 		height: 590px;
 	}
+	.review-heading-para h3 {
+		font-size: 35px;
+	}
+	.review-heading-para h4 {
+		margin-bottom: 27px;
+		font-size: 25px;
+	}
+	.banner-heading h1 {
+		position: absolute;
+		top: 0px;
+		font-size: 70px;
+	}
 	.main-top-navbar nav.navbar.navbar-expand-lg.navbar-light {
 		padding: 0px 0 120px 0;
 	}
@@ -280,7 +295,10 @@ ul.prograss-bar1 li h4 {
 		font-size: 12px;
 	}
 	section#quality {
-		height: 61vh;
+		height: 121vh;
+	}
+	section#about-us {
+		padding: 60px 0;
 	}
 	.list-about ul li span {
 		font-size: clamp(20px, 5vw, 23px);
@@ -314,6 +332,9 @@ ul.prograss-bar1 li h4 {
 	.banner-heading h1 {
 		top: -70px;
 		font-size: 50px;
+	}
+	section#quality {
+		height: unset;
 	}
 	.banner-heading-para {
 		margin-top: 0px;
@@ -424,10 +445,17 @@ ul.prograss-bar1 li h4 {
 }
 @media (max-width: 575px) {
 	.banner-heading h1 {
-		font-size: 49px;
+		font-size: 48px;
+		top: -50px;
+	}
+	.banner-heading-para h3 {
+		font-size: 32px;
 	}
 	.banner-heading-para {
-		margin-top: 50px;
+		margin-top: 0px;
+	}
+	.banner-heading-para h3 {
+		padding-right: 120px;
 	}
 	#about-banner {
 		background-size: 100% 80%;
@@ -670,7 +698,7 @@ ul.prograss-bar1 li h4 {
 		font-size: clamp(14px, 5vw, 18px);
 	}
 	.progress-line {
-		width: 84px;
+		width: 24px;
 		top: 21px;
 	}
 	ul.prograss-bar1.prograss-bar2 {
@@ -719,5 +747,9 @@ ul.prograss-bar1 li h4 {
 	.progress-bar:after {
 		width: 92%;
 		height: 206px;
+	}
+	ul.prograss-bar1.prograss-bar2 {
+		top: -84px;
+		left: 0px;
 	}
 }

@@ -101,7 +101,7 @@ section#specialised {
 		font-size: 14px;
 	}
 	.heading-slider h2 {
-		font-size: 50px;
+		font-size: 55px;
 	}
 	.btn {
 		width: 40%;
@@ -131,14 +131,25 @@ section#specialised {
 	.banner-heading-para h3 {
 		font-size: 26px;
 	}
+	.review-heading-para h4 {
+		font-size: 25px;
+	}
+	.banner-heading h1 {
+		position: absolute;
+		top: 0px;
+		font-size: 70px;
+	}
 	.heading-slider h2 {
 		font-size: 44px;
 	}
 	.btn {
 		width: 40%;
 	}
+	.review-heading-para p {
+		font-size: 12px;
+	}
 	.review-heading-para h5 {
-		font-size: clamp(20px, 5vw, 28px);
+		font-size: clamp(16px, 5vw, 19px);
 	}
 	.business-card.card1 h2 {
 		font-size: clamp(25px, 5vw, 33px);
@@ -176,6 +187,11 @@ section#specialised {
 @media (max-width: 575px) {
 	.heading-slider h2 {
 		font-size: 24px;
+	}
+	.banner-heading h1 {
+		position: absolute;
+		top: 0px;
+		font-size: 50px;
 	}
 }
 @media (max-width: 414px) {
