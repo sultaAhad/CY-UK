@@ -196,6 +196,7 @@ li.nav-item.dropdown.has-megamenu {
 	background-color: #f2f2f2;
 	mix-blend-mode: multiply;
 	margin-top: 30px;
+	opacity: 0;
 }
 .banner-wrapper {
 	position: relative;
@@ -749,6 +750,20 @@ input:valid ~ label {
 		width: 0;
 		background: transparent;
 	}
+}
+#motionPath {
+	overflow: visible;
+	height: 100%;
+	max-width: 100%;
+}
+
+#motionPath path {
+	stroke-width: 2;
+	stroke: gray;
+}
+
+#motionPath .astronaut {
+	visibility: hidden;
 }
 /* footer css end */
 

@@ -14,37 +14,36 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 <script>
-    const tl = gsap.timeline();
-
-    tl.to(".banner-heading h1", 1.8, {
-        y: -05,
-        opacity: 1,
-        ease: "power4.out",
-        delay: 1,
-        stagger: {
-            amount: 0.3
-        }
-    })
-    tl.to(".banner-heading-para h2", 1.8, {
-        y: -05,
-        opacity: 1,
-        ease: "power4.out",
-        delay: 2,
-        stagger: {
-            amount: 0.3
-        }
-    })
+const tl = gsap.timeline();
+tl.to(".banner-heading h1 , .banner-heading-para h2", 1.8, {
+    x: 05,
+    opacity: 1,
+    ease: "power4.out",
+    delay: 1,
+    stagger: {
+        amount: 0.3
+    }
+})
+tl.to(".banner-img img", 1.8, {
+    x: -05,
+    opacity: 1,
+    ease: "power4.out",
+    delay: 1,
+    stagger: {
+        amount: 0.3
+    }
+})
 </script>
 
 
 <!-- header navbar -->
 <script>
-    const CurrentLocation = location.href;
-    const menuItem = document.querySelectorAll(".main-top-navbar .navbar-light .navbar-nav .nav-link");
-    const menuLength = menuItem.length;
-    for (let i = 0; i < menuLength; i++) {
-        if (menuItem[i].href === CurrentLocation) {
-            menuItem[i].id = "active";
-        }
+const CurrentLocation = location.href;
+const menuItem = document.querySelectorAll(".main-top-navbar .navbar-light .navbar-nav .nav-link");
+const menuLength = menuItem.length;
+for (let i = 0; i < menuLength; i++) {
+    if (menuItem[i].href === CurrentLocation) {
+        menuItem[i].id = "active";
     }
+}
 </script>
